@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.beddings-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.beddings-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.beddings-container ul {
+  list-style: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.beddings-container li {
+  margin-bottom: 20px;
+}
+
+.beddings-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.beddings-container p {
+  font-size: 1.2em;
+  color: #555;
+}
+.players-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.players-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.players-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.players-container li {
+  margin-bottom: 20px;
+}
+
+.players-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.players-container p {
+  font-size: 1.2em;
+  color: #555;
+}
+.about-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+}
+
+.navbar-link {
   color: white;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-link:hover {
+  text-decoration: underline;
 }
